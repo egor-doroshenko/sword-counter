@@ -1,0 +1,35 @@
+/* https://colorscheme.ru/#0O21T8U--dJE8 */
+
+/* TEXT */
+
+.textBlack {
+  color: #202022;
+}
+
+/*  BLUE */
+
+.blue {
+  background-color: #bedcff;
+}
+
+.blueDark {
+  background-color: #7fa8d9;
+}
+
+.blueLight {
+  background-color: #e4f0ff;
+}
+
+/* BEIGE */
+
+.beige {
+  background-color: #ffe4b8;
+}
+
+.beigeDark {
+  background-color: #d9b47b;
+}
+
+.beigeLight {
+  background-color: #fff3e1;
+}
