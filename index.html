@@ -20,7 +20,12 @@
     </header>
     <div class="mainContainer beigeLight">
       <div class="container containerCentaer formContainer blueLight">
-        <form action="#" method="post" class="form blue containerCenter">
+        <form
+          action="js/formHandler.js"
+          method="post"
+          class="form blue containerCenter"
+          id="form"
+        >
           <h2 class="h2 textCenter">Введите данные бойца</h2>
           <p class="text textCenter">
             Калькулятор автоматически рассчитает оптимальные характеристики меча
@@ -28,7 +33,11 @@
           <label for="height" class="label">
             Рост
             <input
-              type="text"
+              required
+              min="100"
+              max="250"
+              type="number"
+              name="height"
               class="input beigeLight"
               id="height"
               placeholder="180"
@@ -37,7 +46,11 @@
           <label for="weight" class="label">
             Вес
             <input
-              type="text"
+              required
+              min="40"
+              max="150"
+              type="number"
+              name="weight"
               class="input beigeLight"
               id="weight"
               placeholder="90"
@@ -46,7 +59,11 @@
           <label for="weight" class="label">
             Ширина ладони
             <input
-              type="text"
+              required
+              min="7"
+              max="15"
+              type="number"
+              name="palmWidth"
               class="input beigeLight"
               id="palmWidth"
               placeholder="15"
@@ -54,7 +71,7 @@
           </label>
           <label for="sex" class="label">
             Пол
-            <select name="sex" id="sex" class="select beigeLight">
+            <select required name="sex" id="sex" class="select beigeLight">
               <option value="male">Мужчина</option>
               <option value="female">Женщина</option>
             </select>
@@ -64,5 +81,6 @@
       </div>
     </div>
     <footer class="footer beigeDark"></footer>
+    <script src="js/formHandler.js"></script>
   </body>
 </html>
