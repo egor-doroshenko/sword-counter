@@ -2,14 +2,25 @@
   font-family: "Aref Ruqaa", "Roboto Slab";
   color: #202020;
   font-size: 50px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .h2 {
-  font-family: "Roboto Slab";
+  font-family: "Aref Ruqaa", "Roboto Slab";
   color: #202020;
   font-size: 30px;
+  margin-bottom: 8px;
+}
+
+.text {
+  font-family: "Aref Ruqaa", "Roboto Slab";
+  color: #202020;
+  font-size: 14px;
   margin-bottom: 3px;
+}
+
+.textCenter {
+  text-align: center;
 }
 
 /* aref-ruqaa-regular - latin */

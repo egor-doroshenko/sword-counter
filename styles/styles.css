@@ -16,6 +16,17 @@
 
 /* HEADER END */
 
+/* FOOTER */
+
+.footer {
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  bottom: 0;
+}
+
+/* FOOTER END */
+
 /* CONTAINERS */
 
 .mainContainer {
@@ -27,9 +38,21 @@
   padding: 150px 5% 60px;
 }
 
+.formContainer {
+  margin-top: 50px;
+  padding: 50px 20px 20px;
+  border-radius: 5px;
+}
+
 .container {
   width: 100%;
   display: flex;
+}
+
+.containerCenter {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .containerLeft {
@@ -40,13 +63,57 @@
 
 /* CONTAINERS END */
 
-/* FOOTER */
+/* FORMS */
 
-.footer {
+.form {
   width: 100%;
-  height: 60px;
-  position: absolute;
-  bottom: 0;
+  height: 100%;
+  padding: 20px 10px;
+  display: flex;
+  border-radius: 5px;
 }
 
-/* FOOTER END */
+.label {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  align-items: center;
+}
+
+.input {
+  width: 100px;
+  padding: 3px 7px;
+  margin-top: 5px;
+  font-size: 14px;
+  text-align: center;
+  color: #202020;
+  border: none;
+  border-radius: 5px;
+}
+
+.select {
+  width: 100px;
+  padding: 3px 7px;
+  margin-top: 5px;
+  font-size: 14px;
+  text-align: center;
+  color: #202020;
+  border: none;
+  border-radius: 5px;
+}
+
+.button {
+  width: 100px;
+  padding: 3px 7px;
+  margin-top: 5px;
+  font-size: 14px;
+  text-align: center;
+  color: #202020;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* FORMS END */
